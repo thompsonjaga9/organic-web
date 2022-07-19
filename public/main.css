@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: inter;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.head h2 {
+    color: rgb(247, 163, 8);
+    letter-spacing: 3px;
+}
+
+.head p {
+    font-size: 12px;
+}
+
+/* .list-head {
+    padding-left: 250px;
+} */
+
+.list-head-mobile {
+    display: none;
+}
+
+.list-head li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-head li a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-head li .active {
+    color: rgb(247, 163, 8);
+}
+
+.list-head li :hover {
+    color: rgb(247, 163, 8);
+}
+
+.rad {
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.rad p { 
+    position: absolute; 
+    right: 5px;
+    top: 3px;
+    font-size: 8px;
+    background-color: rgb(247, 163, 8);
+    padding: 2px 4px;
+    border-radius: 10px;
+}
+
+.head-container button {
+    color: white;
+    background-color: rgb(247, 163, 8);
+    padding: 10px 20px;
+    border: none;
+    margin-right: 70px;
+    border-radius: 3px;
+}
+
+.home-container {
+    display: flex;
+}
+
+.home {
+    width: 50%;
+    line-height: 30px;
+    margin: 50px;
+}
+
+.home h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.home p {
+    width: 80%;
+    font-size: 13px;
+}
+
+.rad-1 {
+    color: white;
+    background-color: rgb(247, 163, 8);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.rad-2 {
+    color: white;
+    background-color: rgb(177, 170, 170);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.img-1 {
+    position: relative;
+    padding-left: 120px;
+}
+
+.img-1 p {
+    position: absolute;
+    left: 140px;
+    background-color: white;
+    width: 14%;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 15px 25px;
+}
+
+#imgg {
+    padding-bottom: 200px;
+}
+
+.dot-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.dot {
+    margin: 0 3px;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dot-1 div {
+    background-color: rgb(247, 163, 8);
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+}
+
+.all-product h2 {
+    padding-left: 410px;
+    font-size: 40px;
+}
+
+.product {
+    margin: 20px 0;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product button {
+    color: white;
+    background-color: rgb(177, 170, 170);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    margin: 0 10px;
+}
+
+.product div button {
+    color: white;
+    background-color: rgb(247, 163, 8);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+}
+
+.fruits-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 50px;
+}
+
+.fruits {
+    width: 23.5%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(157, 151, 176, 0.4);
+    flex-wrap: wrap;
+}
+
+.h {
+    display: flex;
+    margin: 10px 25px;
+}
+
+.fruits h2 {
+    margin: 5px 80px;
+    font-size: 18px;
+}
+
+.fruits p {
+    font-size: 11px;
+}
+
+.fruits h3 {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.h button {
+    margin-left: 35px;
+    padding: 7px 15px;
+    color: white;
+    background-color: rgb(177, 170, 170);
+    border: none;
+    border-radius: 3px;
+}
+
+.r button {
+    margin-left: 35px;
+    padding: 7px 15px;
+    color: white;
+    background-color: rgb(247, 163, 8);
+    border: none;
+    border-radius: 3px;
+
+}
+
+.dot-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dot-2 div {
+    background-color: rgb(247, 163, 8);
+}
+
+.about-container {
+    display: flex;
+    margin: 70px 50px;
+}
+
+.saf {
+    position: relative;
+}
+
+.saf p {
+    position: absolute;
+    bottom: 13px;
+}
+
+.about {
+    width: 43.5%;
+    text-align: justify;
+    margin-left: 180px;
+    line-height: 30px;
+}
+
+.about h2 {
+    margin: 20px 0;
+    font-size: 47px;
+}
+
+.rad-3 {
+    margin-top: 20px;
+    padding: 13px 20px;
+    color: white;
+    background-color: rgb(177, 170, 170);
+    border: none;
+    border-radius: 3px;
+}
+
+.rad-4 {
+    margin-top: 20px;
+    padding: 13px 20px;
+    color: white;
+    background-color: rgb(247, 163, 8);
+    border: none;
+    border-radius: 3px;
+}
+
+.test-container {
+    width: 45%;
+    text-align: center;
+    margin: 20px 330px;
+}
+
+.testimony {
+    margin: 15px 0;
+}
+
+.testimony p {
+    font-size: 20px;
+    color: rgb(247, 163, 8);
+    margin: 5px 150px;
+}
+
+.testimony h2 {
+    font-size: 38px;
+}
+
+.image {
+    margin: 15px 0;
+}
+
+.image p {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.it p {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.dot-3 div {
+    background-color: rgb(247, 163, 8);
+}
+
+.organic-cont {
+    background-color: rgb(247, 163, 8);
+    padding: 15px 0;
+    margin: 40px 0;
+}
+
+.organic-container {
+    display: flex;
+    margin: 15px 50px;
+}
+
+.organic {
+    width: 38%;
+    line-height: 40px;
+    margin-right: 450px;
+}
+
+.organic h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.organic p {
+    line-height: 30px;
+    margin: 10px 0;
+    text-transform: lowercase;
+    font-size: 14px;
+    color: white;
+}
+
+.i {
+    position: relative;
+}
+
+.i input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.i i {
+    background-color: rgb(60, 112, 60);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+.bottom-container {
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.ag h2 {
+        color: rgb(247, 163, 8);
+        letter-spacing: 3px;
+}
+
+.ag p {
+    font-size: 10px;
+    color: rgb(60, 112, 60);
+}
+
+.bottom h3 {
+    margin-bottom: 10px;
+}
+
+.bottom ul {
+    list-style: none;
+}
+
+.last {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .all-container {
+        width: 100%;
+    }
+
+
+    .head-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+
+    .list-head {
+        padding: 0;
+        margin: 5px;
+        display: none;
+    }
+    
+    .list-head-mobile {
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+
+    .list-head-mobile li {
+        display: inline-block;
+        margin: auto;
+    }
+
+    .list-head-mobile li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .list-head-mobile li .active {
+        color: rgb(247, 163, 8);
+    }
+
+    .list-head-mobile li :hover {
+        color: rgb(247, 163, 8);
+    }
+
+    .head-container button {
+        margin: auto;
+    }
+
+    .fruits img {
+        width: 100%;
+    }
+
+    .fruits h2 {
+        text-align: center;
+    }
+
+    .home-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .home {
+        width: 90%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .home h2 {
+        width: 90%;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    .home p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .img-1 {
+        width: 90%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .img-1 p {
+        width: 30%;
+        left: 30px;
+        padding: 19px 30px;
+    }
+
+    .img-1 img[src="./images/new.jpg"] {
+        display: none;
+    }
+
+    #imgg {
+        display: none;
+    }
+
+    .product-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .all-product {
+        width: 100%;
+        margin: auto;
+    }
+
+    .all-product h2 {
+        width: 45%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .product {
+        width: 100%;
+        margin: 3px auto;
+        padding: 0;
+    }
+
+    .h {
+        width: 60%;
+        margin: 15px auto;
+    }
+
+    .product button {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fruits-container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .fruits {
+        width: 100%;
+        margin: 4px;
+    }
+
+    .fruits p {
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    .saf {
+        display: none;
+    }
+
+    .about {
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .test-container {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .testimony {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .testimony h2 {
+        font-size: 30px;
+    }
+
+    .testimony p {
+        width: 50%;
+        margin: auto;
+    }
+
+    .image {
+        width: 90%;
+        margin: auto;
+    }
+
+    .organic-cont {
+        width: 100%;
+    }
+
+    .organic-container {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .organic {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .organic h2 {
+        padding-bottom: 30px;
+    }
+
+    .organic p {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .i {
+        margin-right: 40px;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+    }
+
+    .ag {
+        text-align: center;
+    }
+
+    .bottom {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .last {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+}
